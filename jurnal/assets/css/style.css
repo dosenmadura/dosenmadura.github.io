@@ -66,5 +66,111 @@ main{
 #jurnal-list{
     display:grid;
     grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+
+.card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.card img{
+
+    width:100%;
+
+    aspect-ratio:3/4;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.card-body{
+
+    padding:18px;
+
+}
+
+.card-body h3{
+
+    font-size:20px;
+
+    margin-bottom:12px;
+
+    color:#222;
+
+}
+
+.kampus{
+
+    color:#666;
+
+    font-size:14px;
+
+    margin-bottom:15px;
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    background:#E8F5E9;
+
+    color:#0B7A3D;
+
+    font-weight:bold;
+
+    padding:6px 14px;
+
+    border-radius:30px;
+
+    margin-bottom:18px;
+
+}
+
+.btn{
+
+    display:block;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    background:#0B7A3D;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#075E2D;
+
+}
     gap:20px;
 }
