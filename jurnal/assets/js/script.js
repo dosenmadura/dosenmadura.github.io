@@ -114,6 +114,32 @@ tombolFilter.forEach(button=>{
 
         });
 
+        const search = document.getElementById("search");
+
+search.addEventListener("keyup", function(){
+
+    const keyword = this.value.toLowerCase();
+
+    const hasil = semuaJurnal.filter(jurnal => {
+
+        return (
+
+            jurnal.nama.toLowerCase().includes(keyword) ||
+
+            jurnal.kampus.toLowerCase().includes(keyword) ||
+
+            jurnal.akreditasi.toLowerCase().includes(keyword) ||
+
+            jurnal.terbit.toLowerCase().includes(keyword)
+
+        );
+
+    });
+
+    renderJurnal(hasil);
+
+});
+
         renderJurnal(hasil);
 
     });
