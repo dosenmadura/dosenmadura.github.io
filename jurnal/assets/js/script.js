@@ -1,41 +1,38 @@
 fetch("assets/data/jurnal.json")
-.then(response => response.json())
-.then(data => {
+  .then(response => response.json())
+  .then(data => {
 
-const container=document.getElementById("jurnal-list");
+    const container = document.getElementById("jurnal-list");
 
-data.forEach(jurnal=>{
+    data.forEach(jurnal => {
 
-container.innerHTML +=`
+      container.innerHTML += `
+        <div class="card">
 
-<div class="card">
+          <img src="${jurnal.cover}" alt="${jurnal.nama}">
 
-<img src="${jurnal.cover}">
+          <div class="card-body">
 
-<div class="card-body">
+            <h3>${jurnal.nama}</h3>
 
-<h3>${jurnal.nama}</h3>
+            <p class="kampus">🏫 ${jurnal.kampus}</p>
 
-<p class="kampus">
-🏫 ${jurnal.kampus}
-</p>
+            <span class="badge">
+              🏅 SINTA ${jurnal.sinta}
+            </span>
 
-<span class="badge">
-🏅 SINTA ${jurnal.sinta}
-</span>
+            <a href="${jurnal.url}" target="_blank" class="btn">
+              🌐 Kunjungi Jurnal
+            </a>
 
-<a href="${jurnal.url}" target="_blank" class="btn">
+          </div>
 
-🌐 Kunjungi Jurnal
+        </div>
+      `;
 
-</a>
+    });
 
-</div>
-
-</div>
-
-`;
-
-});
-
-});
+  })
+  .catch(error => {
+    console.error("Gagal membaca jurnal.json", error);
+  });
