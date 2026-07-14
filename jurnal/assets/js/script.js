@@ -26,24 +26,38 @@ function renderJurnal(data){
 
             <div class="card-body">
 
-                <h3>${jurnal.nama}</h3>
+                <div class="info">
 
-                <p class="kampus">
-                    🏫 ${jurnal.kampus}
-                </p>
+<div class="row">
+<span class="label">Jurnal</span>
+<span class="value">${jurnal.nama}</span>
+</div>
 
-                <span class="badge">
-                    🏅 SINTA ${jurnal.sinta}
-                </span>
+<div class="row">
+<span class="label">Kampus</span>
+<span class="value">${jurnal.kampus}</span>
+</div>
 
-                <a
-                    href="${jurnal.url}"
-                    target="_blank"
-                    class="btn">
+<div class="row">
+<span class="label">Akreditasi</span>
+<span class="value">${jurnal.akreditasi}</span>
+</div>
 
-                    🌐 Kunjungi Jurnal
+<div class="row">
+<span class="label">Terbit</span>
+<span class="value">${jurnal.terbit}</span>
+</div>
 
-                </a>
+</div>
+
+<a
+href="${jurnal.url}"
+target="_blank"
+class="btn">
+
+🌐 Kunjungi Jurnal
+
+</a>
 
             </div>
 
