@@ -204,50 +204,54 @@ main{
     gap:20px;
 }
 
+/* ===========================
+   INFORMASI JURNAL
+=========================== */
+
 .info{
 
-    margin-top:10px;
+    margin:18px 0;
 
 }
 
 .row{
 
-    display:flex;
+    display:grid;
+
+    grid-template-columns:110px 15px 1fr;
+
+    gap:5px;
 
     margin-bottom:10px;
 
-    align-items:flex-start;
+    align-items:start;
 
 }
 
 .label{
 
-    width:100px;
-
     font-weight:600;
 
     color:#555;
 
-    flex-shrink:0;
-
 }
 
-.label::after{
+.separator{
 
-    content:":";
+    text-align:center;
 
-    float:right;
+    font-weight:bold;
 
-    margin-right:10px;
+    color:#555;
 
 }
 
 .value{
 
-    flex:1;
-
     color:#222;
 
     line-height:1.5;
+
+    word-break:break-word;
 
 }
