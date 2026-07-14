@@ -140,9 +140,3 @@ search.addEventListener("keyup", function(){
 
 });
 
-        renderJurnal(hasil);
-
-    });
-
-});
-
