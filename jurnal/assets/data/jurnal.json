@@ -1,10 +1,12 @@
 [
-  {
-    "id": 1,
-    "nama": "Jurnal Kabilah",
-    "kampus": "IAI NATA Sampang",
-    "sinta": 5,
-    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1784057181/kabilah_cover_pmw9hi.jpg",
-    "url": "https://ejournal.iainata.ac.id/kabilah"
-  }
+{
+  "id":1,
+  "nama":"Jurnal Kabilah",
+  "kampus":"IAI NATA Sampang",
+  "akreditasi":"SINTA 5",
+  "terbit":"Juli & Desember",
+  "cover":"https://res.cloudinary.com/arsaydwv/image/upload/v1784057181/kabilah_cover_pmw9hi.jpg",
+  "url":"https://ejournal.iainata.ac.id/kabilah"
+}
 ]
+
