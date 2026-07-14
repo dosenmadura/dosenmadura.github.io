@@ -203,3 +203,51 @@ main{
 }
     gap:20px;
 }
+
+.info{
+
+    margin-top:10px;
+
+}
+
+.row{
+
+    display:flex;
+
+    margin-bottom:10px;
+
+    align-items:flex-start;
+
+}
+
+.label{
+
+    width:100px;
+
+    font-weight:600;
+
+    color:#555;
+
+    flex-shrink:0;
+
+}
+
+.label::after{
+
+    content:":";
+
+    float:right;
+
+    margin-right:10px;
+
+}
+
+.value{
+
+    flex:1;
+
+    color:#222;
+
+    line-height:1.5;
+
+}
