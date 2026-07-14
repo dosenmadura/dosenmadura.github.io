@@ -1,5 +1,9 @@
 let semuaJurnal = [];
 
+// =========================
+// Ambil Data JSON
+// =========================
+
 fetch("assets/data/jurnal.json")
     .then(response => response.json())
     .then(data => {
@@ -10,11 +14,27 @@ fetch("assets/data/jurnal.json")
 
     });
 
+
+// =========================
+// Menampilkan Card Jurnal
+// =========================
+
 function renderJurnal(data){
 
     const container = document.getElementById("jurnal-list");
 
     container.innerHTML = "";
+
+    if(data.length === 0){
+
+        container.innerHTML = `
+            <p style="text-align:center;width:100%;padding:30px;">
+                Data jurnal tidak ditemukan.
+            </p>
+        `;
+
+        return;
+    }
 
     data.forEach(jurnal=>{
 
@@ -72,6 +92,13 @@ function renderJurnal(data){
     });
 
 }
+
+
+
+// =========================
+// Filter SINTA
+// =========================
+
 const tombolFilter = document.querySelectorAll(".filter button");
 
 tombolFilter.forEach(button=>{
@@ -94,11 +121,7 @@ tombolFilter.forEach(button=>{
 
         if(filter==="Belum SINTA"){
 
-            const hasil = semuaJurnal.filter(jurnal=>{
-
-                return jurnal.sinta==0;
-
-            });
+            const hasil = semuaJurnal.filter(jurnal=>jurnal.sinta===0);
 
             renderJurnal(hasil);
 
@@ -106,21 +129,29 @@ tombolFilter.forEach(button=>{
 
         }
 
-        const nomor = filter.replace("S","");
+        const nomor = parseInt(filter.replace("S",""));
 
-        const hasil = semuaJurnal.filter(jurnal=>{
+        const hasil = semuaJurnal.filter(jurnal=>jurnal.sinta===nomor);
 
-            return jurnal.sinta==nomor;
+        renderJurnal(hasil);
 
-        });
+    });
 
-        const search = document.getElementById("search");
+});
 
-search.addEventListener("keyup", function(){
 
-    const keyword = this.value.toLowerCase();
 
-    const hasil = semuaJurnal.filter(jurnal => {
+// =========================
+// Search
+// =========================
+
+const search = document.getElementById("search");
+
+search.addEventListener("input", function(){
+
+    const keyword = this.value.toLowerCase().trim();
+
+    const hasil = semuaJurnal.filter(jurnal=>{
 
         return (
 
@@ -139,4 +170,3 @@ search.addEventListener("keyup", function(){
     renderJurnal(hasil);
 
 });
-
