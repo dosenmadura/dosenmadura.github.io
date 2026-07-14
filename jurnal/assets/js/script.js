@@ -28,36 +28,40 @@ function renderJurnal(data){
 
                 <div class="info">
 
-<div class="row">
-<span class="label">Jurnal</span>
-<span class="value">${jurnal.nama}</span>
-</div>
+                    <div class="row">
+                        <div class="label">Jurnal</div>
+                        <div class="separator">:</div>
+                        <div class="value">${jurnal.nama}</div>
+                    </div>
 
-<div class="row">
-<span class="label">Kampus</span>
-<span class="value">${jurnal.kampus}</span>
-</div>
+                    <div class="row">
+                        <div class="label">Kampus</div>
+                        <div class="separator">:</div>
+                        <div class="value">${jurnal.kampus}</div>
+                    </div>
 
-<div class="row">
-<span class="label">Akreditasi</span>
-<span class="value">${jurnal.akreditasi}</span>
-</div>
+                    <div class="row">
+                        <div class="label">Akreditasi</div>
+                        <div class="separator">:</div>
+                        <div class="value">${jurnal.akreditasi}</div>
+                    </div>
 
-<div class="row">
-<span class="label">Terbit</span>
-<span class="value">${jurnal.terbit}</span>
-</div>
+                    <div class="row">
+                        <div class="label">Terbit</div>
+                        <div class="separator">:</div>
+                        <div class="value">${jurnal.terbit}</div>
+                    </div>
 
-</div>
+                </div>
 
-<a
-href="${jurnal.url}"
-target="_blank"
-class="btn">
+                <a
+                    href="${jurnal.url}"
+                    target="_blank"
+                    class="btn">
 
-🌐 Kunjungi Jurnal
+                    🌐 Kunjungi Jurnal
 
-</a>
+                </a>
 
             </div>
 
@@ -68,7 +72,6 @@ class="btn">
     });
 
 }
-
 const tombolFilter = document.querySelectorAll(".filter button");
 
 tombolFilter.forEach(button=>{
