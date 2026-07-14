@@ -54,3 +54,52 @@ function renderJurnal(data){
     });
 
 }
+
+const tombolFilter = document.querySelectorAll(".filter button");
+
+tombolFilter.forEach(button=>{
+
+    button.addEventListener("click",()=>{
+
+        tombolFilter.forEach(btn=>btn.classList.remove("active"));
+
+        button.classList.add("active");
+
+        const filter = button.innerText;
+
+        if(filter==="Semua"){
+
+            renderJurnal(semuaJurnal);
+
+            return;
+
+        }
+
+        if(filter==="Belum SINTA"){
+
+            const hasil = semuaJurnal.filter(jurnal=>{
+
+                return jurnal.sinta==0;
+
+            });
+
+            renderJurnal(hasil);
+
+            return;
+
+        }
+
+        const nomor = filter.replace("S","");
+
+        const hasil = semuaJurnal.filter(jurnal=>{
+
+            return jurnal.sinta==nomor;
+
+        });
+
+        renderJurnal(hasil);
+
+    });
+
+});
+
