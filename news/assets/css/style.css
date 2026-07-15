@@ -1,1 +1,329 @@
 
+/* ===========================
+   FPDM NEWS
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f5f5;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.news-header{
+
+    background:linear-gradient(
+        135deg,
+        #5d4037,
+        #8d6e63
+    );
+
+    color:#fff;
+
+    padding:50px 20px;
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.news-header h1{
+
+    font-size:42px;
+    margin-bottom:10px;
+
+}
+
+.news-header p{
+
+    opacity:.9;
+    margin-bottom:30px;
+
+}
+
+/* ===========================
+   SEARCH
+=========================== */
+
+.search-box{
+
+    max-width:700px;
+
+    margin:auto;
+
+    background:#fff;
+
+    border-radius:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:15px 25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+}
+
+.search-box i{
+
+    color:#777;
+
+    font-size:20px;
+
+    margin-right:15px;
+
+}
+
+.search-box input{
+
+    border:none;
+
+    outline:none;
+
+    width:100%;
+
+    font-size:17px;
+
+}
+
+/* ===========================
+   GRID
+=========================== */
+
+.news-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+
+    gap:25px;
+
+    margin-bottom:40px;
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.news-card{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    transition:.3s;
+
+    border:1px solid #ececec;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.06);
+
+}
+
+.news-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.news-title{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color:#5d4037;
+
+    margin-bottom:15px;
+
+}
+
+.news-title i{
+
+    color:#795548;
+
+    margin-right:8px;
+
+}
+
+.news-date{
+
+    color:#777;
+
+    margin-bottom:15px;
+
+}
+
+.news-date i{
+
+    margin-right:6px;
+
+}
+
+.news-desc{
+
+    color:#555;
+
+    margin-bottom:25px;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.news-action{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:10px;
+
+}
+
+.news-action a{
+
+    flex:1;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:.25s;
+
+}
+
+/* PDF */
+
+.news-action a:first-child{
+
+    background:#fff0f0;
+
+    color:#d32f2f;
+
+    border:1px solid #ffcdd2;
+
+}
+
+/* DOWNLOAD */
+
+.news-action a:last-child{
+
+    background:#5d4037;
+
+    color:white;
+
+}
+
+.news-action a:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* ===========================
+   PAGINATION
+=========================== */
+
+.pagination{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin:50px 0;
+
+}
+
+.pagination button{
+
+    border:none;
+
+    background:white;
+
+    padding:12px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.08);
+
+}
+
+.pagination button.active{
+
+    background:#5d4037;
+
+    color:white;
+
+}
+
+.pagination button:hover{
+
+    background:#8d6e63;
+
+    color:white;
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.news-header h1{
+
+    font-size:30px;
+
+}
+
+.news-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.news-action{
+
+    flex-direction:column;
+
+}
+
+}
