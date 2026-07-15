@@ -1,1 +1,107 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPDM News</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="news-header">
+    <div class="container">
+
+        <h1>
+            <i class="fa-solid fa-newspaper"></i>
+            FPDM News
+        </h1>
+
+        <p>
+            Berita, Pengumuman, Informasi dan Kegiatan
+            Forum Profesi Dosen Madura
+        </p>
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Cari judul berita..."
+            >
+        </div>
+
+    </div>
+</header>
+
+
+<main class="container">
+
+    <div id="newsContainer" class="news-grid">
+
+        <!-- Card Berita -->
+
+        <div class="news-card">
+
+            <div class="news-title">
+                <i class="fa-solid fa-newspaper"></i>
+
+                Workshop Penulisan Artikel Ilmiah Tahun 2026
+            </div>
+
+            <div class="news-date">
+                <i class="fa-regular fa-calendar"></i>
+                15 Juli 2026
+            </div>
+
+            <div class="news-desc">
+                Workshop bagi dosen untuk meningkatkan kualitas
+                publikasi ilmiah dan indeksasi jurnal nasional.
+            </div>
+
+            <div class="news-action">
+
+                <a href="#">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Baca PDF
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-download"></i>
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Card kedua -->
+        <!-- nanti otomatis dibuat dari berita.json -->
+
+    </div>
+
+
+    <div id="pagination" class="pagination">
+
+        <button>« Prev</button>
+
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+
+        <button>Next »</button>
+
+    </div>
+
+</main>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
