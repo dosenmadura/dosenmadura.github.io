@@ -1,91 +1,228 @@
-*{
+/* =========================
+   GLOBAL
+========================= */
 
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+body {
+    margin: 0;
+    background: #fff;
+    min-height: 100vh;
 
+    font-family: Arial, sans-serif;
 }
 
-body{
 
-    font-family:Arial,Helvetica,sans-serif;
-    background:#f3f5f7;
+/* =========================
+   COVER
+========================= */
 
+.cover {
+    width: 100%;
+    display: block;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .15);
 }
 
-.container{
 
-    max-width:500px;
-    margin:auto;
-    background:#fff;
-    min-height:100vh;
+/* =========================
+   TITLE
+========================= */
 
+.title {
+    text-align: center;
+
+    padding: 30px 25px 20px;
 }
 
-.cover{
 
-    width:100%;
-    display:block;
-    box-shadow:0 6px 20px rgba(0,0,0,.15);
+.title h1 {
+    font-size: 28px;
 
+    color: #3d2b1f;
+
+    margin: 0 0 10px;
 }
 
-.title{
 
-    text-align:center;
-    padding:30px 25px;
+.title p {
+    color: #666;
 
+    line-height: 1.7;
+
+    margin: 0;
 }
 
-.title h1{
 
-    font-size:28px;
-    color:#3d2b1f;
-    margin-bottom:10px;
+/* =========================
+   MENU GRID
+========================= */
 
+.menu {
+
+    padding: 10px 25px 30px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 14px;
+
+    max-width: 650px;
+
+    margin: 0 auto;
 }
 
-.title p{
 
-    color:#666;
-    line-height:1.7;
+/* =========================
+   MENU CARD
+========================= */
 
+.link {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 115px;
+
+    text-decoration: none;
+
+    background: #fff;
+
+    color: #4b3528;
+
+    border: 1px solid #e8e1dc;
+
+    border-radius: 18px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .06);
+
+    transition: .25s ease;
 }
 
-.menu{
 
-    padding:0 25px 30px;
+/* =========================
+   ICON
+========================= */
 
+.icon {
+
+    font-size: 34px;
+
+    line-height: 1;
+
+    margin-bottom: 12px;
 }
 
-.link{
 
-    display:block;
-    text-decoration:none;
-    background:#6b4b32;
-    color:#fff;
-    text-align:center;
-    padding:18px;
-    margin-bottom:18px;
-    border-radius:15px;
-    font-size:18px;
-    font-weight:bold;
-    transition:.3s;
+/* =========================
+   LABEL
+========================= */
 
+.label {
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    text-align: center;
 }
 
-.link:hover{
 
-    background:#523824;
-    transform:translateY(-3px);
+/* =========================
+   HOVER
+========================= */
 
+.link:hover {
+
+    transform: translateY(-3px);
+
+    border-color: #6b4b32;
+
+    box-shadow: 0 7px 18px rgba(0, 0, 0, .10);
 }
 
-.footer{
 
-    text-align:center;
-    padding:25px;
-    color:#777;
-    font-size:14px;
+/* =========================
+   CLICK / TOUCH
+========================= */
+
+.link:active {
+
+    transform: scale(.96);
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+
+    text-align: center;
+
+    padding: 25px;
+
+    color: #777;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .title {
+
+        padding: 28px 25px 18px;
+    }
+
+
+    .title h1 {
+
+        font-size: 27px;
+    }
+
+
+    .title p {
+
+        font-size: 17px;
+    }
+
+
+    .menu {
+
+        padding: 10px 25px 30px;
+
+        gap: 12px;
+    }
+
+
+    .link {
+
+        min-height: 110px;
+
+        border-radius: 17px;
+    }
+
+
+    .icon {
+
+        font-size: 31px;
+
+        margin-bottom: 10px;
+    }
+
+
+    .label {
+
+        font-size: 13px;
+    }
 
 }
