@@ -1,13 +1,45 @@
 [
+
+{
+  "id":4,
+  "nama":"Sumenep",
+  "kampus":"Forum Profesi Dosen Madura",
+  "sinta":0,
+  "akreditasi":"Belum Sinta",
+  "terbit":"April & Oktober",
+  "cover":"https://res.cloudinary.com/arsaydwv/image/upload/v1786232035/THUMBNAIL_SUMENEP_esmt96.png",
+  "url":"https://ejournal.fpdm.org/index.php/sumenep"
+}
+{
+  "id":3,
+  "nama":"Pamekasan",
+  "kampus":"Forum Profesi Dosen Madura",
+  "sinta":0,
+  "akreditasi":"Belum Sinta",
+  "terbit":"Januari & Juli",
+  "cover":"https://res.cloudinary.com/arsaydwv/image/upload/v1786232052/THUMBNAIL_PAMEKASAN_lmi50c.png",
+  "url":"https://ejournal.fpdm.org/index.php/pamekasan"
+}
+  
+{
+  "id":2,
+  "nama":"Sampang",
+  "kampus":"Forum Profesi Dosen Madura",
+  "sinta":0,
+  "akreditasi":"Belum Sinta",
+  "terbit":"April & Oktober",
+  "cover":"https://res.cloudinary.com/arsaydwv/image/upload/v1786232063/THUMBNAIL_SAMPANG_vixlww.png",
+  "url":"https://ejournal.fpdm.org/index.php/sampang"
+}
 {
   "id":1,
-  "nama":"Kabilah",
-  "kampus":"IAI NATA Sampang",
-  "sinta":5,
-  "akreditasi":"SINTA 5",
-  "terbit":"Juli & Desember",
-  "cover":"https://res.cloudinary.com/arsaydwv/image/upload/v1784057181/kabilah_cover_pmw9hi.jpg",
-  "url":"https://ejournal.iainata.ac.id/kabilah"
+  "nama":"Bangkalan",
+  "kampus":"Forum Profesi Dosen Madura",
+  "sinta":0,
+  "akreditasi":"Belum Sinta",
+  "terbit":"Januari & Juli",
+  "cover":"https://res.cloudinary.com/arsaydwv/image/upload/v1786232042/THUMBNAIL_BANGKALAN_lxjwia.png",
+  "url":"https://ejournal.fpdm.org/index.php/bangkalan"
 }
 ]
 
