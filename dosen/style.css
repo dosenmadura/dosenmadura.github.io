@@ -427,6 +427,15 @@ body {
     background: #0e548b;
 }
 
+.btn-scopus {
+    background: #e87511;
+    color: #ffffff;
+}
+
+.btn-scopus:hover {
+    background: #c85f08;
+}
+
 
 .btn-download {
     background: #333333;
