@@ -71,7 +71,7 @@ async function loadData() {
 
         semuaDosen = await response.json();
 
-        hasilFilter = [...semuaDosen];
+        hasilFilter = [...semuaDosen].reverse();
 
         buatFilter();
 
