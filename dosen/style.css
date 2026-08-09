@@ -1,1 +1,730 @@
+/* =========================================================
+   FPDM - DIREKTORI DOSEN
+   STYLE.CSS
+========================================================= */
 
+
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   BODY
+========================================================= */
+
+body {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    background: #f5f6f8;
+
+    color: #222;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.container {
+    width: 92%;
+
+    max-width: 1180px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.site-header {
+    background: #171717;
+
+    color: #ffffff;
+
+    padding: 24px 0;
+
+    border-bottom: 4px solid #a67c52;
+}
+
+
+.brand h1 {
+    font-size: 27px;
+
+    font-weight: 700;
+
+    letter-spacing: -0.5px;
+}
+
+
+.brand p {
+    margin-top: 3px;
+
+    color: #cfcfcf;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   PAGE TITLE
+========================================================= */
+
+.page-title {
+    padding: 35px 0 20px;
+}
+
+
+.page-title h2 {
+    font-size: 27px;
+
+    line-height: 1.3;
+
+    margin-bottom: 8px;
+
+    color: #171717;
+}
+
+
+.page-title p {
+    color: #707070;
+
+    font-size: 15px;
+
+    max-width: 700px;
+}
+
+
+/* =========================================================
+   SEARCH
+========================================================= */
+
+.search-section {
+    margin-bottom: 15px;
+}
+
+
+.search-box {
+    display: flex;
+
+    gap: 8px;
+
+    background: #ffffff;
+
+    padding: 8px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+
+.search-box input {
+    flex: 1;
+
+    border: none;
+
+    outline: none;
+
+    padding: 11px 13px;
+
+    font-size: 15px;
+
+    background: transparent;
+}
+
+
+.search-box input::placeholder {
+    color: #999;
+}
+
+
+.search-box button {
+    border: none;
+
+    background: #8a6847;
+
+    color: #ffffff;
+
+    padding: 0 22px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+.search-box button:hover {
+    background: #6f5137;
+}
+
+
+/* =========================================================
+   DATA INFO
+========================================================= */
+
+.data-info {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 15px 0;
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+.data-info strong {
+    color: #222;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   FILTER
+========================================================= */
+
+.filter-section {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 10px;
+
+    margin-bottom: 18px;
+}
+
+
+.filter-section select {
+    width: 100%;
+
+    padding: 11px 12px;
+
+    border: 1px solid #d7d7d7;
+
+    border-radius: 6px;
+
+    background: #ffffff;
+
+    color: #444;
+
+    font-size: 14px;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+
+.filter-section select:focus {
+    border-color: #8a6847;
+}
+
+
+/* =========================================================
+   DOSEN LIST
+========================================================= */
+
+.dosen-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+/* =========================================================
+   DOSEN CARD
+========================================================= */
+
+.dosen-card {
+    display: flex;
+
+    gap: 22px;
+
+    background: #ffffff;
+
+    border: 1px solid #dedede;
+
+    border-radius: 8px;
+
+    padding: 18px;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.dosen-card:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+
+/* =========================================================
+   FOTO DOSEN
+========================================================= */
+
+.dosen-photo {
+    width: 155px;
+
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+
+    background: #eeeeee;
+
+    border: 1px solid #dddddd;
+
+    flex-shrink: 0;
+}
+
+
+/* =========================================================
+   INFORMASI DOSEN
+========================================================= */
+
+.dosen-info {
+    flex: 1;
+
+    min-width: 0;
+}
+
+
+.dosen-number {
+    font-size: 13px;
+
+    color: #888;
+
+    margin-bottom: 2px;
+}
+
+
+.dosen-name {
+    font-size: 20px;
+
+    line-height: 1.35;
+
+    font-weight: 700;
+
+    color: #1b1b1b;
+
+    margin-bottom: 12px;
+}
+
+
+/* =========================================================
+   DETAIL DOSEN
+========================================================= */
+
+.dosen-detail {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+    font-size: 14px;
+
+    margin-bottom: 5px;
+
+    color: #555;
+}
+
+
+.dosen-detail strong {
+    width: 85px;
+
+    flex-shrink: 0;
+
+    color: #333;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   BUTTON DOSEN
+========================================================= */
+
+.dosen-buttons {
+    display: flex;
+
+    gap: 8px;
+
+    margin-top: 18px;
+}
+
+
+.btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-width: 95px;
+
+    padding: 8px 15px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+
+.btn-sinta {
+    background: #1769aa;
+
+    color: #ffffff;
+}
+
+
+.btn-sinta:hover {
+    background: #0e548b;
+}
+
+
+.btn-download {
+    background: #333333;
+
+    color: #ffffff;
+}
+
+
+.btn-download:hover {
+    background: #111111;
+}
+
+
+/* =========================================================
+   PAGINATION
+========================================================= */
+
+.pagination {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 5px;
+
+    margin: 30px 0 45px;
+}
+
+
+.pagination button {
+    min-width: 38px;
+
+    height: 38px;
+
+    padding: 0 10px;
+
+    border: 1px solid #d8d8d8;
+
+    border-radius: 5px;
+
+    background: #ffffff;
+
+    color: #444;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+.pagination button:hover {
+    background: #f0f0f0;
+}
+
+
+.pagination button.active {
+    background: #8a6847;
+
+    color: #ffffff;
+
+    border-color: #8a6847;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.site-footer {
+    background: #171717;
+
+    color: #ffffff;
+
+    padding: 28px 0;
+
+    text-align: center;
+
+    border-top: 4px solid #a67c52;
+}
+
+
+.site-footer p:first-child {
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+
+.site-footer p:last-child {
+    font-size: 12px;
+
+    color: #999;
+
+    margin-top: 3px;
+}
+
+
+/* =========================================================
+   EMPTY DATA
+========================================================= */
+
+.empty-data {
+    background: #ffffff;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    padding: 50px 20px;
+
+    text-align: center;
+
+    color: #777;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .container {
+        width: 94%;
+    }
+
+
+    .dosen-card {
+        gap: 17px;
+    }
+
+
+    .dosen-photo {
+        width: 130px;
+
+        height: 160px;
+    }
+
+
+    .dosen-name {
+        font-size: 18px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .site-header {
+        padding: 20px 0;
+    }
+
+
+    .brand h1 {
+        font-size: 22px;
+    }
+
+
+    .page-title {
+        padding: 25px 0 16px;
+    }
+
+
+    .page-title h2 {
+        font-size: 22px;
+    }
+
+
+    .search-box {
+        padding: 6px;
+
+        flex-direction: column;
+
+        gap: 5px;
+    }
+
+
+    .search-box input {
+        padding: 11px;
+    }
+
+
+    .search-box button {
+        min-height: 42px;
+    }
+
+
+    .filter-section {
+        grid-template-columns: 1fr;
+    }
+
+
+    .dosen-card {
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: left;
+
+        padding: 15px;
+    }
+
+
+    .dosen-photo {
+        width: 150px;
+
+        height: 175px;
+    }
+
+
+    .dosen-info {
+        width: 100%;
+    }
+
+
+    .dosen-number {
+        text-align: left;
+    }
+
+
+    .dosen-name {
+        font-size: 18px;
+
+        text-align: left;
+    }
+
+
+    .dosen-detail {
+        display: block;
+
+        text-align: left;
+    }
+
+
+    .dosen-detail strong {
+        display: block;
+
+        width: auto;
+
+        margin-bottom: 1px;
+    }
+
+
+    .dosen-buttons {
+        justify-content: flex-start;
+
+        flex-wrap: wrap;
+    }
+
+
+    .btn {
+        min-width: 90px;
+    }
+
+
+    .pagination {
+        margin-bottom: 35px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .container {
+        width: 94%;
+    }
+
+
+    .dosen-photo {
+        width: 135px;
+
+        height: 160px;
+    }
+
+
+    .dosen-name {
+        font-size: 17px;
+    }
+
+
+    .btn {
+        flex: 1;
+
+        min-width: 0;
+    }
+
+}
