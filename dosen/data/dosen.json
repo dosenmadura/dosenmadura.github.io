@@ -10,6 +10,7 @@
     ],
     "foto": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
     "sinta": "https://sinta.kemdikbud.go.id/",
+    "scopus": "#",
     "download": "https://drive.google.com/"
   },
   {
@@ -22,6 +23,7 @@
     ],
     "foto": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
     "sinta": "https://sinta.kemdikbud.go.id/",
+    "scopus": "",
     "download": "https://drive.google.com/"
   },
   {
@@ -34,6 +36,7 @@
     ],
     "foto": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
     "sinta": "https://sinta.kemdikbud.go.id/",
+    "scopus": "",
     "download": "https://drive.google.com/"
   },
   {
@@ -47,6 +50,7 @@
     ],
     "foto": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg",
     "sinta": "https://sinta.kemdikbud.go.id/",
+    "scopus": "",
     "download": "https://drive.google.com/"
   }
 ]
