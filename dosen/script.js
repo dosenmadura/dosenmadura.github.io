@@ -293,16 +293,21 @@ function tampilkanDosen() {
            LINK SINTA
         ========================== */
 
-        const sinta =
-            dosen.sinta || "#";
-
+       const sinta =
+    dosen.sinta || "";
+       
+        /* =========================
+           LINK SINTA
+        ========================== */
+      const scopus =
+    dosen.scopus || "";
 
         /* =========================
            LINK DOWNLOAD
         ========================== */
 
         const download =
-            dosen.download || "#";
+    dosen.download || "";
 
 
         /* =========================
