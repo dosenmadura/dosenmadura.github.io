@@ -1,5 +1,45 @@
 [
   {
+    "id": 8,
+    "nama": "MURAJA'AH",
+    "kampus": "PT CABIS KARYA NUSATARA",
+    "sinta": 0,
+    "akreditasi": "Belum Sinta",
+    "terbit": "Februari, Juni, Oktober",
+    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1786235965/Cover_Luar_MURAJA_AH_20260703_215053_0000_y092cv.png",
+    "url": "https://cabiskarya.com/murajaah"
+  },
+  {
+    "id": 7,
+    "nama": "Mauzuna",
+    "kampus": "Ponpes Gedangan",
+    "sinta": 0,
+    "akreditasi": "Belum Sinta",
+    "terbit": "April & Agustus",
+    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1786235734/mauzuna_clvi7u.webp",
+    "url": "https://ejournal.gedangan.net/index.php/mauzuna"
+  },  
+  {
+    "id": 6,
+    "nama": "Ihtafa",
+    "kampus": "Miftahul Ulum",
+    "sinta": 0,
+    "akreditasi": "Belum Sinta",
+    "terbit": "Juli & Desember",
+    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1786235560/LOGO_IHTAFA_jt7noc.jpg",
+    "url": "https://mifu.or.id/index.php/ihtafa"
+  },
+  {
+    "id": 5,
+    "nama": "Kabilah",
+    "kampus": "IAI NATA Sampang",
+    "sinta": 5,
+    "akreditasi": "Sinta 5",
+    "terbit": "Juni & Desember",
+    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1784057135/kabilah_cover_ua7wwb.jpg",
+    "url": "https://ejournal.iainata.ac.id/kabilah"
+  },
+  {
     "id": 4,
     "nama": "Sumenep",
     "kampus": "Forum Profesi Dosen Madura",
