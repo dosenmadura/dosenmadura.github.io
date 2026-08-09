@@ -1,1 +1,175 @@
-tes
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Direktori Dosen FPDM</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="site-header">
+        <div class="container">
+
+            <div class="brand">
+                <h1>Direktori Dosen</h1>
+                <p>Forum Profesi Dosen Madura</p>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+    <main class="container">
+
+        <!-- JUDUL -->
+        <section class="page-title">
+
+            <h2>Direktori Dosen FPDM</h2>
+
+            <p>
+                Direktori dosen dan akademisi yang tergabung
+                dalam Forum Profesi Dosen Madura.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             SEARCH
+        ========================== -->
+        <section class="search-section">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Cari nama, kampus, jurusan, atau keahlian..."
+                >
+
+                <button id="searchButton">
+                    🔍 Search
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INFO DATA
+        ========================== -->
+        <div class="data-info">
+
+            <span>
+                Menampilkan
+                <strong id="jumlahData">0</strong>
+                dosen
+            </span>
+
+        </div>
+
+
+        <!-- =========================
+             FILTER
+        ========================== -->
+        <section class="filter-section">
+
+            <select id="filterKampus">
+
+                <option value="">
+                    Semua Kampus
+                </option>
+
+            </select>
+
+
+            <select id="filterJurusan">
+
+                <option value="">
+                    Semua Jurusan
+                </option>
+
+            </select>
+
+
+            <select id="filterKeahlian">
+
+                <option value="">
+                    Semua Keahlian
+                </option>
+
+            </select>
+
+        </section>
+
+
+        <!-- =========================
+             LIST DOSEN
+        ========================== -->
+
+        <section id="dosenList" class="dosen-list">
+
+            <!-- Data dosen akan dimasukkan
+                 oleh JavaScript -->
+
+        </section>
+
+
+        <!-- =========================
+             PAGINATION
+        ========================== -->
+
+        <nav
+            id="pagination"
+            class="pagination"
+            aria-label="Pagination"
+        >
+
+            <!-- Pagination dibuat oleh JavaScript -->
+
+        </nav>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 Forum Profesi Dosen Madura
+            </p>
+
+            <p>
+                Direktori Dosen FPDM
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
