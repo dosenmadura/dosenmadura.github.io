@@ -389,28 +389,52 @@ function tampilkanDosen() {
 
                 <div class="dosen-buttons">
 
+    ${
+        sinta
+        ? `
+            <a
+                href="${escapeHTML(sinta)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-sinta"
+            >
+                SINTA ↗
+            </a>
+        `
+        : ""
+    }
 
-                    <a
-                        href="${escapeHTML(sinta)}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn btn-sinta"
-                    >
-                        SINTA ↗
-                    </a>
+    ${
+        scopus
+        ? `
+            <a
+                href="${escapeHTML(scopus)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-scopus"
+            >
+                SCOPUS ↗
+            </a>
+        `
+        : ""
+    }
 
+    ${
+        download
+        ? `
+            <a
+                href="${escapeHTML(download)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-download"
+            >
+                DOWNLOAD ↓
+            </a>
+        `
+        : ""
+    }
 
-                    <a
-                        href="${escapeHTML(download)}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn btn-download"
-                    >
-                        DOWNLOAD ↓
-                    </a>
-
-
-                </div>
+</div>
 
 
             </div>
