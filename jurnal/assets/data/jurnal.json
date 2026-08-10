@@ -1,11 +1,21 @@
 [
+ {
+    "id": 10,
+    "nama": "Almujtama",
+    "kampus": "STAI Al Mujtama Pamekasan",
+    "sinta": 0,
+    "akreditasi": "Belum Sinta",
+    "terbit": "January-June and July-December",
+    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1786401561/Al-Mujtamak_zcpyyf.webp",
+    "url": "https://risetamt.com/index.php/almujtama"
+  },
   {
     "id": 9,
     "nama": "Assyarikah",
     "kampus": "Universitas Al-Amien Prenduan Sumenep",
     "sinta": 3,
     "akreditasi": "Sinta 3",
-    "terbit": "Februari, Juni, Oktober",
+    "terbit": " Juni, Desember",
     "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1786401340/Assyarikah_uwyzll.jpg",
     "url": "https://ejournal.unia.ac.id/index.php/Assyarikah"
   },
