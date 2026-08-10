@@ -1,5 +1,15 @@
 [
  {
+    "id": 11,
+    "nama": "IJILE",
+    "kampus": "Almizanul Ilmi Banyuwangi Foundation",
+    "sinta": 0,
+    "akreditasi": "Belum Sinta",
+    "terbit": "Februari, Juni dan Oktober ",
+    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1786401926/cover_issue_2_en_iy2n3s.webp",
+    "url": "https://ejournal.ijile.org/index.php/ijile/id"
+  },
+ {
     "id": 10,
     "nama": "Almujtama",
     "kampus": "STAI Al Mujtama Pamekasan",
