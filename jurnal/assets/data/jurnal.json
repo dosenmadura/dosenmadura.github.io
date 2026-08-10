@@ -1,5 +1,15 @@
 [
   {
+    "id": 9,
+    "nama": "Assyarikah",
+    "kampus": "Universitas Al-Amien Prenduan Sumenep",
+    "sinta": 3,
+    "akreditasi": "Sinta 3",
+    "terbit": "Februari, Juni, Oktober",
+    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1786401340/Assyarikah_uwyzll.jpg",
+    "url": "https://ejournal.unia.ac.id/index.php/Assyarikah"
+  },
+  {
     "id": 8,
     "nama": "MURAJA'AH",
     "kampus": "PT CABIS KARYA NUSATARA",
