@@ -52,5 +52,18 @@
     "sinta": "https://sinta.kemdikbud.go.id/",
     "scopus": "",
     "download": "https://drive.google.com/"
+  },
+  {
+    "id": 5,
+    "nama": "Dr. Ali Wafa, M.Pd.",
+    "kampus": "IAI NATA Sampang",
+    "jurusan": "Pendidikan Agama Islam",
+    "keahlian": [
+      "Ilmu Pendidikan Agama Islam"
+    ],
+    "foto": "https://res.cloudinary.com/arsaydwv/image/upload/v1786402376/Dr.-Ali-Wafa-M.Pd__lzdrtj.jpg",
+    "sinta": "https://sinta.kemdikbud.go.id/",
+    "scopus": "#",
+    "download": "https://drive.google.com/"
   }
 ]
