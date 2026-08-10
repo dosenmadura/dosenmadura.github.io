@@ -65,5 +65,31 @@
     "sinta": "https://sinta.kemdikbud.go.id/",
     "scopus": "#",
     "download": "https://drive.google.com/"
+  },
+  {
+    "id": 6,
+    "nama": "Faisol, S.Ak., M.Ak., CTT",
+    "kampus": "UNT Sampang",
+    "jurusan": "Agribisnis",
+    "keahlian": [
+      "Akuntansi Keuangan", "Akuntansi Forensik", "Akuntansi Sektor Publik"
+    ],
+    "foto": "https://res.cloudinary.com/arsaydwv/image/upload/v1786402603/WhatsApp_Image_2026-08-10_at_09.44.43_btker1.jpg",
+    "sinta": "https://sinta.kemdikbud.go.id/",
+    "scopus": "#",
+    "download": "https://drive.google.com/"
+  },
+   {
+    "id": 6,
+    "nama": "Ahmad Khoiri, M.Pd",
+    "kampus": "STAI Walisongo Sampang",
+    "jurusan": "Manajemen Pendidikan Islam",
+    "keahlian": [
+      "Manajemen Pendidikan"
+    ],
+    "foto": "https://res.cloudinary.com/arsaydwv/image/upload/v1786402897/Foto_Merah.jpg_fpyxmo.jpg",
+    "sinta": "https://sinta.kemdikbud.go.id/",
+    "scopus": "",
+    "download": "https://drive.google.com/"
   }
 ]
