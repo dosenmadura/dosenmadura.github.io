@@ -1,5 +1,15 @@
 [
  {
+    "id": 12,
+    "nama": "JOEBIS",
+    "kampus": "Universitas Nazhatut Thullab Al-Muafa ",
+    "sinta": 0,
+    "akreditasi": "Belum Sinta",
+    "terbit": "Maret dan September ",
+    "cover": "https://res.cloudinary.com/arsaydwv/image/upload/v1786402176/WhatsApp_Image_2026-08-11_at_05.48.01_v0pp4b.jpg",
+    "url": "https://ojsjournal.unt.ac.id/index.php/JOEBIS/index"
+  },
+ {
     "id": 11,
     "nama": "IJILE",
     "kampus": "Almizanul Ilmi Banyuwangi Foundation",
