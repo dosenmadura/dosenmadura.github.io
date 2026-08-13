@@ -80,7 +80,7 @@
     "download": "#"
   },
    {
-    "id": 6,
+    "id": 7,
     "nama": "Ahmad Khoiri, M.Pd",
     "kampus": "STAI Walisongo Sampang",
     "jurusan": "Manajemen Pendidikan Islam",
@@ -92,4 +92,18 @@
     "scopus": "#",
     "download": "#"
   }
+  {
+    "id": 7,
+    "nama": "Noga Riza Faisol,S.Sos,.MM",
+    "kampus": "Universitas Islam KH Achmad Muzakki Syah Jember",
+    "jurusan": "EKonomi Syariah",
+    "keahlian": [
+      "Manajemen Sumber Daya Insani"
+    ],
+    "foto": "https://res.cloudinary.com/arsaydwv/image/upload/v1786625666/WhatsApp_Image_2026-08-12_at_09.54.53_uutvks.jpg",
+    "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6195296",
+    "scopus": "#",
+    "download": "#"
+  }
 ]
+
